@@ -53,7 +53,7 @@
         <div v-else class="lists" :id="hotData.name + 'Lists'">
           <div
             class="item"
-            v-for="(item, index) in hotListData.data.slice(0, 15)"
+            v-for="(item, index) in hotListData.data.slice(0, 20)"
             :key="item"
           >
             <n-text
