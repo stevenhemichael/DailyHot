@@ -21,7 +21,7 @@
         <n-text v-if="hotListData?.type" class="subtitle" :depth="2">
           {{ hotListData.type }}
         </n-text>
-        <n-skeleton v-else width="60px" text round />
+        <n-skeleton v-else width="40px" text round />
       </n-space>
     </template>
     <n-scrollbar class="news-list" ref="scrollbarRef">
@@ -48,12 +48,12 @@
           </n-button>
         </div>
         <div v-else-if="!hotListData || listLoading" class="loading">
-          <n-skeleton text round :repeat="10" height="20px" />
+          <n-skeleton text round :repeat="10" height="15px" />
         </div>
         <div v-else class="lists" :id="hotData.name + 'Lists'">
           <div
             class="item"
-            v-for="(item, index) in hotListData.data.slice(0, 20)"
+            v-for="(item, index) in hotListData.data.slice(0, 15)"
             :key="item"
           >
             <n-text
