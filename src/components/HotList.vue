@@ -1,7 +1,7 @@
 <template>
   <n-card
     :header-style="{ padding: '10px' }"
-    :content-style="{ padding: '0 15px' }"
+    :content-style="{ padding: '0 10px' }"
     :footer-style="{ padding: '10px' }"
     :id="`hot-list-${hotData.name}`"
     class="hot-list"
