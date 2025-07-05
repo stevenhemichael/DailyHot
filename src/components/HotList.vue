@@ -1,8 +1,8 @@
 <template>
   <n-card
-    :header-style="{ padding: '10px' }"
-    :content-style="{ padding: '0 10px' }"
-    :footer-style="{ padding: '10px' }"
+    :header-style="{ padding: '5px' }"
+    :content-style="{ padding: '0 5px' }"
+    :footer-style="{ padding: '5px' }"
     :id="`hot-list-${hotData.name}`"
     class="hot-list"
     hoverable
