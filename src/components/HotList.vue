@@ -21,7 +21,7 @@
         <n-text v-if="hotListData?.type" class="subtitle" :depth="2">
           {{ hotListData.type }}
         </n-text>
-        <n-skeleton v-else width="40px" text round />
+        <n-skeleton v-else width="30px" text round />
       </n-space>
     </template>
     <n-scrollbar class="news-list" ref="scrollbarRef">
